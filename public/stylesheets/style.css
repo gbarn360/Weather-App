@@ -26,13 +26,14 @@ body {
 
 
 #textfield{
+    position: relative;
     width: 350px;
     height: 45px;
-    margin-left: 43%;
-
+    display: flex;
+    -ms-flex-align: center;
     margin-right: auto;
-    margin-top: 6%;
-
+    margin-left: auto;
+    margin-top: 50px;
     background: rgb(255, 253, 253);
     border-style: none;
     border-radius: 7px;
